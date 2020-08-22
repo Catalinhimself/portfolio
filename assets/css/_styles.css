@@ -6,11 +6,9 @@
     font-family: nimbus;
     src: url(../fonts/NimbusSanL-Reg.otf);
 }
-$selector:#BF616A;
-$background:#2E3440;
 ::selection{
-    color:$selector;
-    background: $background;
+    color:rgb(226, 68, 68);
+    background: black;
 }
 body{
     margin: auto;

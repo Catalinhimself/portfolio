@@ -1,13 +1,15 @@
-$cl1:#2E3440;
-$cl2:#3B4252;
-$cl3:#434C5E;
-$cl4:#4C566A;
+:root{
+    --st:#ADA996;
+    --nd:#F2F2F2;
+    --rd:#DBDBDB;
+    --th:#EAEAEA;
+}
 /**
  * ----------------------------------------
  * class
  * ----------------------------------------
  */
- .jello-horizontal {
+.jello-horizontal {
 	-webkit-animation: jello-horizontal 1s 0s infinite both;
 	        animation: jello-horizontal 1s 0s infinite both;
 }
@@ -20,7 +22,37 @@ $cl4:#4C566A;
  * Keyframes
  * ----------------------------------------
  */
- @keyframes jello-horizontal {
+ @-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
     0% {
       -webkit-transform: scale3d(1, 1, 1);
               transform: scale3d(1, 1, 1);
@@ -51,17 +83,30 @@ $cl4:#4C566A;
     }
   }
   
+
+
+
+
+ @-webkit-keyframes color-change {
+    0% {
+      background: var(--first);
+    }
+    100% {
+      background: var(--second);
+    }
+  }
   @keyframes color-change {
     0% {
-        background: $cl1;
+        background: var(--st);
       }
       33%{
-           background: $cl2;
+           background: var(--nd);
       }
       66%{
-        background: $cl3;
+        background: var(--rd);
       }
       100% {
-        background: $cl4;
+        background: var(--th);
       }
   }
+  
