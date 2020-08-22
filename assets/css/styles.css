@@ -1,0 +1,37 @@
+@font-face {
+    font-family: bnimbus;
+    src:url(../fonts/NimbusSanL-Bol.otf)
+}
+@font-face{
+    font-family: nimbus;
+    src: url(../fonts/NimbusSanL-Reg.otf);
+}
+::selection{
+    color:rgb(226, 68, 68);
+    background: black;
+}
+body{
+    margin: auto;
+    font-size: 1.25rem;
+    font-family: nimbus;
+    vertical-align: baseline;
+}
+.btn{
+    border-radius: 0;
+}
+.me h1,.me h6{
+    font-family: bnimbus;
+    
+}
+.me{
+    margin-top: 100px;
+    text-align: center;
+}
+hr{
+    width: 85%;
+}
+.row{
+text-align: center;
+}   
+
+
