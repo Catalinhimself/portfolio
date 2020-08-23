@@ -1,4 +1,5 @@
 @import "../variables/variables";
+
 /**
  * ----------------------------------------
  * class
@@ -8,9 +9,11 @@
 	-webkit-animation: jello-horizontal 1s 0s infinite both;
 	        animation: jello-horizontal 1s 0s infinite both;
 }
-.color-change {
-	-webkit-animation: color-change 4s linear infinite alternate both;
-	        animation: color-change 4s linear infinite alternate both;
+.color-change-dark {
+	        animation: color-change-dark 4s linear infinite alternate both;
+}
+.color-change-light {
+          animation: color-change-light 4s linear infinite alternate both;
 }
 /**
  * ----------------------------------------
@@ -48,7 +51,7 @@
     }
   }
   
-  @keyframes color-change {
+  @keyframes color-change-dark {
     0% {
         background: $polarnight0;
       }
@@ -59,6 +62,18 @@
         background: $polarnight2;
       }
       100% {
-        background: $polarnight;
+        background: $polarnight3;
       }
   }
+@keyframes color-change-light {
+  0%{
+    background:$snowstorm0;
+  }
+  70%{
+    background:$snowstorm1;
+  }
+
+  100%{
+    background:$snowstorm2;
+  }
+}

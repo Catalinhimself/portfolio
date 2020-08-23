@@ -1,16 +1,31 @@
 @import "variables/variables";
-$selector:#BF616A;
-$background:#2E3440;
 ::selection{
-    color:$selector;
-    background: $background;
+    color:$aurora0;
+    background: $aurora4;
 }
 body{
     margin: auto;
     font-size: 1.25rem;
     font-family: nimbus;
-    color:#D8DEE9;
     vertical-align: baseline;
+}
+
+
+.color-change-light{
+    color:$polarnight0;
+    #theme{
+        fill:$polarnight0;
+    }
+}
+.color-change-dark{
+    color:$snowstorm0;
+    #theme{
+        fill:$snowstorm0;
+    }
+
+}  
+#theme:hover{
+        background:$frost3;
 }
 .btn{
     border-radius: 0;
