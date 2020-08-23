@@ -10,23 +10,48 @@ body{
     vertical-align: baseline;
 }
 
-
+#theme{
+    width:40px;
+    position: absolute;
+    top:5px;
+    right:5px;
+}
 .color-change-light{
     color:$polarnight0;
     #theme{
         fill:$polarnight0;
     }
+    #theme:hover{
+        background:$aurora2;
+}
+.btn-outline-primary{
+    color:$frost3;
+    border-color:$frost3;
+}
+.btn-outline-primary:hover{
+    color:#fff;
+    background-color:$frost3;
+    border-color:$frost3}
 }
 .color-change-dark{
     color:$snowstorm0;
     #theme{
         fill:$snowstorm0;
     }
-
+    #theme:hover{
+            background:$frost3;
+    }
+    .btn-outline-primary{
+        color:$aurora3;
+        border-color:$aurora3;
+    }
+    .btn-outline-primary:hover{
+        color:#fff;
+        background-color:$aurora3;
+        border-color:$aurora3}
+    
 }  
-#theme:hover{
-        background:$frost3;
-}
+
 .btn{
     border-radius: 0;
 }
@@ -51,15 +76,7 @@ text-align: center;
 .btn-outline-danger:hover{
     color:#fff;
     background-color:$aurora0;
-    border-color:$aurora0
+    border-color:$aurora0;
 }
-.btn-outline-primary{
-    color:$frost3;
-    border-color:$frost3
-}
-.btn-outline-primary:hover{
-    color:#fff;
-    background-color:$frost3;
-    border-color:$frost3}
 
 
