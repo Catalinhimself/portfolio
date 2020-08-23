@@ -46,4 +46,26 @@ hr {
 .row {
   text-align: center;
 }
+
+.btn-outline-danger {
+  color: #BF616A;
+  border-color: #BF616A;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #BF616A;
+  border-color: #BF616A;
+}
+
+.btn-outline-primary {
+  color: #5E81AC;
+  border-color: #5E81AC;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #5E81AC;
+  border-color: #5E81AC;
+}
 /*# sourceMappingURL=styles.css.map */

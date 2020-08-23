@@ -1,0 +1,29 @@
+//polar night
+$polarnight0:#2E3440;
+$polarnight1:#3B4252;
+$polarnight2:#434C5E;
+$polarnight3:#4C566A;
+//snow storm
+$snowstorm0:#D8DEE9;
+$snowstorm1:#E5E9F0;
+$snowstorm2:#ECEFF4;
+//frost
+$frost0:#8FBCBB;
+$frost1:#88C0D0;
+$frost2:#81A1C1;
+$frost3:#5E81AC;
+//aurora
+$aurora0:#BF616A;
+$aurora1:#D08770;
+$aurora2:#EBCB8B;
+$aurora3:#A3BE8C;
+$aurora4:#B48EAD;
+//fonts
+@font-face {
+    font-family: bnimbus;
+    src:url(../fonts/NimbusSanL-Bol.otf)
+}
+@font-face{
+    font-family: nimbus;
+    src: url(../fonts/NimbusSanL-Reg.otf);
+}

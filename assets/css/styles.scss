@@ -1,11 +1,4 @@
-@font-face {
-    font-family: bnimbus;
-    src:url(../fonts/NimbusSanL-Bol.otf)
-}
-@font-face{
-    font-family: nimbus;
-    src: url(../fonts/NimbusSanL-Reg.otf);
-}
+@import "variables/variables";
 $selector:#BF616A;
 $background:#2E3440;
 ::selection{
@@ -36,5 +29,22 @@ hr{
 .row{
 text-align: center;
 }   
+.btn-outline-danger{
+    color:$aurora0;
+    border-color:$aurora0;
+}
+.btn-outline-danger:hover{
+    color:#fff;
+    background-color:$aurora0;
+    border-color:$aurora0
+}
+.btn-outline-primary{
+    color:$frost3;
+    border-color:$frost3
+}
+.btn-outline-primary:hover{
+    color:#fff;
+    background-color:$frost3;
+    border-color:$frost3}
 
 

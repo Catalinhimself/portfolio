@@ -1,7 +1,4 @@
-$cl1:#2E3440;
-$cl2:#3B4252;
-$cl3:#434C5E;
-$cl4:#4C566A;
+@import "../variables/variables";
 /**
  * ----------------------------------------
  * class
@@ -53,15 +50,15 @@ $cl4:#4C566A;
   
   @keyframes color-change {
     0% {
-        background: $cl1;
+        background: $polarnight0;
       }
       33%{
-           background: $cl2;
+           background: $polarnight1;
       }
       66%{
-        background: $cl3;
+        background: $polarnight2;
       }
       100% {
-        background: $cl4;
+        background: $polarnight;
       }
   }
