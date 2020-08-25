@@ -101,3 +101,17 @@ hr {
 	background-color: $aurora0;
 	border-color: $aurora0;
 }
+
+.myimage {
+	width: 10rem;
+	height: 10rem;
+	object-fit: cover;
+	position: relative;
+	top: 0;
+	left: 50%;
+	border-radius: 50%;
+	display: none;
+}
+.trigger:hover > .myimage {
+	display: block;
+}

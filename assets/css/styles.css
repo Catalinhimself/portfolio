@@ -134,4 +134,20 @@ hr {
   background-color: #BF616A;
   border-color: #BF616A;
 }
+
+.myimage {
+  width: 10rem;
+  height: 10rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 50%;
+  border-radius: 50%;
+  display: none;
+}
+
+.trigger:hover > .myimage {
+  display: block;
+}
 /*# sourceMappingURL=styles.css.map */
