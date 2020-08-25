@@ -1,82 +1,103 @@
 @import "variables/variables";
-::selection{
-    color:$aurora0;
-    background: $aurora4;
+::selection {
+	color: $aurora0;
+	background: $aurora4;
 }
-body{
-    margin: auto;
-    font-size: 1.25rem;
-    font-family: nimbus;
-    vertical-align: baseline;
-}
-
-#theme{
-    width:40px;
-    position: absolute;
-    top:5px;
-    right:5px;
-}
-.color-change-light{
-    color:$polarnight0;
-    #theme{
-        fill:$polarnight0;
-    }
-    #theme:hover{
-        background:$aurora2;
-}
-.btn-outline-primary{
-    color:$frost3;
-    border-color:$frost3;
-}
-.btn-outline-primary:hover{
-    color:#fff;
-    background-color:$frost3;
-    border-color:$frost3}
-}
-.color-change-dark{
-    color:$snowstorm0;
-    #theme{
-        fill:$snowstorm0;
-    }
-    #theme:hover{
-            background:$frost3;
-    }
-    .btn-outline-primary{
-        color:$aurora3;
-        border-color:$aurora3;
-    }
-    .btn-outline-primary:hover{
-        color:#fff;
-        background-color:$aurora3;
-        border-color:$aurora3}
-    
-}  
-
-.btn{
-    border-radius: 0;
-}
-.me h1,.me h6{
-    font-family: bnimbus;
-    
-}
-.me{
-    margin-top: 100px;
-    text-align: center;
-}
-hr{
-    width: 85%;
-}
-.row{
-text-align: center;
-}   
-.btn-outline-danger{
-    color:$aurora0;
-    border-color:$aurora0;
-}
-.btn-outline-danger:hover{
-    color:#fff;
-    background-color:$aurora0;
-    border-color:$aurora0;
+body {
+	margin: auto;
+	font-size: 1.25rem;
+	font-family: nimbus;
+	vertical-align: baseline;
 }
 
+#theme {
+	width: 40px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.color-change-light {
+	color: $polarnight0;
+	#theme {
+		fill: $polarnight0;
+	}
+	#theme:hover {
+		background: $aurora2;
+	}
+	.btn-outline-primary {
+		color: $frost3;
+		border-color: $frost3;
+	}
+	.btn-outline-primary:hover {
+		color: #fff;
+		background-color: $frost3;
+		border-color: $frost3;
+	}
+	.btn-outline-primary:not(:disabled):not(.disabled).active,
+	.btn-outline-primary:not(:disabled):not(.disabled):active,
+	.show > .btn-outline-primary.dropdown-toggle {
+		color: #fff;
+		background-color: $aurora3;
+		border-color: $aurora0;
+	}
+}
+.color-change-dark {
+	color: $snowstorm0;
+	#theme {
+		fill: $snowstorm0;
+	}
+	#theme:hover {
+		background: $frost3;
+	}
+	.btn-outline-primary {
+		color: $aurora3;
+		border-color: $aurora3;
+	}
+	.btn-outline-primary:hover {
+		color: #fff;
+		background-color: $aurora3;
+		border-color: $aurora3;
+	}
+	.btn-outline-primary:not(:disabled):not(.disabled).active,
+	.btn-outline-primary:not(:disabled):not(.disabled):active,
+	.show > .btn-outline-primary.dropdown-toggle {
+		color: #fff;
+		background-color: $frost3;
+		border-color: $aurora0;
+	}
+}
 
+.btn {
+	border-radius: 0;
+}
+.me h1,
+.me h6 {
+	font-family: bnimbus;
+}
+.me {
+	margin-top: 100px;
+	text-align: center;
+}
+hr {
+	width: 85%;
+}
+.row {
+	text-align: center;
+}
+.btn-outline-danger {
+	color: $aurora0;
+	border-color: $aurora0;
+}
+.btn-outline-danger:hover {
+	color: #fff;
+	background-color: $aurora0;
+	border-color: $aurora0;
+}
+
+.btn-outline-danger:not(:disabled):not(.disabled).active,
+.btn-outline-danger:not(:disabled):not(.disabled):active,
+.show > .btn-outline-danger.dropdown-toggle {
+	color: #fff;
+	background-color: $aurora0;
+	border-color: $aurora0;
+}
