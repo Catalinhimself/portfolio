@@ -137,17 +137,27 @@ hr {
 
 .myimage {
   width: 10rem;
-  height: 10rem;
+  height: 0rem;
   -o-object-fit: cover;
      object-fit: cover;
   position: relative;
   top: 0;
   left: 50%;
   border-radius: 50%;
-  display: none;
+  display: block;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 .trigger:hover > .myimage {
-  display: block;
+  height: 10rem;
+}
+
+.skill label {
+  float: left;
+}
+
+.skill progress {
+  float: right;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -7,3 +7,4 @@
 - changed selection color
 - funy follow me button
 - added an image that is activatet when i hover over headline
+- about page
