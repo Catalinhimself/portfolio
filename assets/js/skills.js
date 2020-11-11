@@ -1,19 +1,20 @@
 // skills
 var skills = [
-	{ Google: 90 },
-	{ HTML: 40 },
-	{ CSS: 34 },
-	{ SCSS: 23 },
-	{ JavaScript: 36 },
-	{ "Node.js": 33 },
+	{ Google: 77 },
+	{ HTML: 37 },
+	{ CSS: 31 },
+	{ SCSS: 17 },
+	{ JavaScript: 47 },
+	{ "Node.js": 20 },
 	{ Git: 51 },
 	{ GitHub: 54 },
-	{ C: 7 },
-	{ Unity: 4 },
+	{ C: 12 },
+	{ Unity: 3 },
 	{ MarkDown: 27 },
-	{ MongoDB: 19 },
-	{ Math: 11 },
-	{ English: 68 }
+	{ MongoDB: 11 },
+	{ Math: 30 },
+	{ English: 66 },
+	{ Communication:2}
 ];
 skills.sort((a, b) => (a[Object.keys(a)] < b[Object.keys(b)] ? 1 : -1));
 //Object.keys(skill[0]);
